@@ -1,0 +1,157 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "11CryptoSwift3AESC"
+provides-member:
+- ["11CryptoSwift3AESC", ""]
+provides-dynamic-lookup:
+- "makeDecryptor"
+- "makeEncryptor"
+depends-top-level:
+- !private "=="
+- "AES"
+- !private "BlockDecryptor"
+- !private "BlockEncryptor"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "CipherOperationOnBlock"
+- "Cryptor"
+- "Cryptors"
+- !private "StreamDecryptor"
+- !private "StreamEncryptor"
+- !private "StreamModeWorker"
+- "TernaryPrecedence"
+- "Updatable"
+depends-member:
+- !private ["11CryptoSwift3AESC", "AES"]
+- !private ["11CryptoSwift3AESC", "BlockDecryptor"]
+- !private ["11CryptoSwift3AESC", "BlockEncryptor"]
+- !private ["11CryptoSwift3AESC", "CipherOperationOnBlock"]
+- ["11CryptoSwift3AESC", "Cryptor"]
+- !private ["11CryptoSwift3AESC", "StreamDecryptor"]
+- !private ["11CryptoSwift3AESC", "StreamEncryptor"]
+- !private ["11CryptoSwift3AESC", "StreamModeWorker"]
+- ["11CryptoSwift3AESC", "Updatable"]
+- !private ["11CryptoSwift3AESC", "blockMode"]
+- !private ["11CryptoSwift3AESC", "blockSize"]
+- !private ["11CryptoSwift3AESC", "decrypt"]
+- ["11CryptoSwift3AESC", "deinit"]
+- !private ["11CryptoSwift3AESC", "encrypt"]
+- ["11CryptoSwift3AESC", "makeDecryptor"]
+- ["11CryptoSwift3AESC", "makeEncryptor"]
+- !private ["11CryptoSwift3AESC", "padding"]
+- ["11CryptoSwift3AESC", "randomIV"]
+- !private ["11CryptoSwift11BlockCipherP", "AES"]
+- !private ["11CryptoSwift11BlockCipherP", "BlockDecryptor"]
+- !private ["11CryptoSwift11BlockCipherP", "BlockEncryptor"]
+- !private ["11CryptoSwift11BlockCipherP", "StreamDecryptor"]
+- !private ["11CryptoSwift11BlockCipherP", "StreamEncryptor"]
+- !private ["11CryptoSwift11BlockCipherP", "blockMode"]
+- !private ["11CryptoSwift11BlockCipherP", "blockSize"]
+- !private ["11CryptoSwift11BlockCipherP", "decrypt"]
+- !private ["11CryptoSwift11BlockCipherP", "encrypt"]
+- ["11CryptoSwift11BlockCipherP", "makeDecryptor"]
+- ["11CryptoSwift11BlockCipherP", "makeEncryptor"]
+- !private ["11CryptoSwift11BlockCipherP", "padding"]
+- ["11CryptoSwift11BlockCipherP", "randomIV"]
+- !private ["11CryptoSwift14BlockDecryptorC", "deinit"]
+- !private ["11CryptoSwift14BlockDecryptorC", "init"]
+- !private ["11CryptoSwift14BlockEncryptorC", "deinit"]
+- !private ["11CryptoSwift14BlockEncryptorC", "init"]
+- !private ["11CryptoSwift9BlockModeP", "options"]
+- !private ["11CryptoSwift9BlockModeP", "worker"]
+- !private ["11CryptoSwift15BlockModeOptionV", "contains"]
+- !private ["11CryptoSwift15BlockModeOptionV", "deinit"]
+- !private ["11CryptoSwift15BlockModeOptionV", "useEncryptToDecrypt"]
+- !private ["11CryptoSwift6CipherP", "AES"]
+- !private ["11CryptoSwift6CipherP", "BlockDecryptor"]
+- !private ["11CryptoSwift6CipherP", "BlockEncryptor"]
+- !private ["11CryptoSwift6CipherP", "StreamDecryptor"]
+- !private ["11CryptoSwift6CipherP", "StreamEncryptor"]
+- !private ["11CryptoSwift6CipherP", "blockMode"]
+- !private ["11CryptoSwift6CipherP", "blockSize"]
+- !private ["11CryptoSwift6CipherP", "decrypt"]
+- !private ["11CryptoSwift6CipherP", "encrypt"]
+- ["11CryptoSwift6CipherP", "makeDecryptor"]
+- ["11CryptoSwift6CipherP", "makeEncryptor"]
+- !private ["11CryptoSwift6CipherP", "padding"]
+- ["11CryptoSwift6CipherP", "randomIV"]
+- !private ["11CryptoSwift7CryptorP", "init"]
+- !private ["11CryptoSwift8CryptorsP", "AES"]
+- !private ["11CryptoSwift8CryptorsP", "BlockDecryptor"]
+- !private ["11CryptoSwift8CryptorsP", "BlockEncryptor"]
+- !private ["11CryptoSwift8CryptorsP", "StreamDecryptor"]
+- !private ["11CryptoSwift8CryptorsP", "StreamEncryptor"]
+- ["11CryptoSwift8CryptorsP", ""]
+- !private ["11CryptoSwift8CryptorsP", "blockMode"]
+- !private ["11CryptoSwift8CryptorsP", "blockSize"]
+- !private ["11CryptoSwift8CryptorsP", "decrypt"]
+- !private ["11CryptoSwift8CryptorsP", "encrypt"]
+- ["11CryptoSwift8CryptorsP", "makeDecryptor"]
+- ["11CryptoSwift8CryptorsP", "makeEncryptor"]
+- !private ["11CryptoSwift8CryptorsP", "padding"]
+- ["11CryptoSwift8CryptorsP", "randomIV"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "useEncryptToDecrypt"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "useEncryptToDecrypt"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "useEncryptToDecrypt"]
+- !private ["SY", "contains"]
+- !private ["SY", "useEncryptToDecrypt"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "useEncryptToDecrypt"]
+- !private ["11CryptoSwift15StreamDecryptorC", "deinit"]
+- !private ["11CryptoSwift15StreamDecryptorC", "init"]
+- !private ["11CryptoSwift15StreamEncryptorC", "deinit"]
+- !private ["11CryptoSwift15StreamEncryptorC", "init"]
+- !private ["11CryptoSwift9UpdatableP", "init"]
+depends-nominal:
+- "11CryptoSwift3AESC"
+- "11CryptoSwift11BlockCipherP"
+- !private "11CryptoSwift14BlockDecryptorC"
+- !private "11CryptoSwift14BlockEncryptorC"
+- !private "11CryptoSwift9BlockModeP"
+- !private "11CryptoSwift15BlockModeOptionV"
+- "11CryptoSwift6CipherP"
+- !private "11CryptoSwift7CryptorP"
+- "11CryptoSwift8CryptorsP"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "s10SetAlgebraP"
+- !private "11CryptoSwift15StreamDecryptorC"
+- !private "11CryptoSwift15StreamEncryptorC"
+- !private "11CryptoSwift9UpdatableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/Task/Pods/Target Support Files/CryptoSwift/CryptoSwift-umbrella.h"
+- "/Users/MohamedNawar/Desktop/Task/build/Pods.build/Debug-iphonesimulator/CryptoSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f2afa84c59ea9a92ad6351d53b85e69f"

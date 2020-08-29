@@ -1,0 +1,419 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Character"
+- "CharacterMapper"
+provides-nominal:
+- "6Marvel9CharacterC"
+- "6Marvel15CharacterMapperC"
+provides-member:
+- ["6Marvel9CharacterC", ""]
+- ["6Marvel15CharacterMapperC", ""]
+provides-dynamic-lookup:
+- "comics"
+- "comicsKey"
+- "createObjectFrom"
+- "dataKey"
+- "desc"
+- "description"
+- "descriptionKey"
+- "extensionKey"
+- "getRoot"
+- "hash"
+- "hashPrefix"
+- "id"
+- "idKey"
+- "modified"
+- "modifiedKey"
+- "name"
+- "nameKey"
+- "pathKey"
+- "resourceURI"
+- "resourceURIKey"
+- "resultsKey"
+- "thumbnailKey"
+- "thumbnailURI"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Character"
+- "CharacterMapper"
+- "Date"
+- "Dictionary"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "MVBaseMapper"
+- "NSObject"
+- "Resource"
+- !private "ResourceMapper"
+- "String"
+- "StringLiteralType"
+- !private "TypeConversionUtilities"
+- "URL"
+- !private "Utilities"
+depends-member:
+- !private ["SK", "hashValue"]
+- !private ["s7CVarArgP", "Character"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "comics"]
+- !private ["s7CVarArgP", "desc"]
+- !private ["s7CVarArgP", "hashPrefix"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "modified"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "resourceURI"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "thumbnailURI"]
+- !private ["6Marvel9CharacterC", "Character"]
+- ["6Marvel9CharacterC", "Date"]
+- ["6Marvel9CharacterC", "Int"]
+- ["6Marvel9CharacterC", "Resource"]
+- ["6Marvel9CharacterC", "String"]
+- ["6Marvel9CharacterC", "URL"]
+- ["6Marvel9CharacterC", "comics"]
+- ["6Marvel9CharacterC", "deinit"]
+- ["6Marvel9CharacterC", "desc"]
+- ["6Marvel9CharacterC", "description"]
+- ["6Marvel9CharacterC", "hash"]
+- !private ["6Marvel9CharacterC", "hashPrefix"]
+- ["6Marvel9CharacterC", "id"]
+- ["6Marvel9CharacterC", "init"]
+- ["6Marvel9CharacterC", "modified"]
+- ["6Marvel9CharacterC", "name"]
+- ["6Marvel9CharacterC", "resourceURI"]
+- ["6Marvel9CharacterC", "thumbnailURI"]
+- !private ["6Marvel15CharacterMapperC", "Array"]
+- ["6Marvel15CharacterMapperC", "Character"]
+- ["6Marvel15CharacterMapperC", "Dictionary"]
+- !private ["6Marvel15CharacterMapperC", "Int"]
+- !private ["6Marvel15CharacterMapperC", "ResourceMapper"]
+- ["6Marvel15CharacterMapperC", "String"]
+- !private ["6Marvel15CharacterMapperC", "TypeConversionUtilities"]
+- !private ["6Marvel15CharacterMapperC", "URL"]
+- !private ["6Marvel15CharacterMapperC", "Utilities"]
+- ["6Marvel15CharacterMapperC", "comicsKey"]
+- ["6Marvel15CharacterMapperC", "createObjectFrom"]
+- ["6Marvel15CharacterMapperC", "dataKey"]
+- ["6Marvel15CharacterMapperC", "deinit"]
+- ["6Marvel15CharacterMapperC", "descriptionKey"]
+- ["6Marvel15CharacterMapperC", "extensionKey"]
+- ["6Marvel15CharacterMapperC", "getRoot"]
+- ["6Marvel15CharacterMapperC", "idKey"]
+- ["6Marvel15CharacterMapperC", "init"]
+- ["6Marvel15CharacterMapperC", "modifiedKey"]
+- ["6Marvel15CharacterMapperC", "nameKey"]
+- ["6Marvel15CharacterMapperC", "pathKey"]
+- ["6Marvel15CharacterMapperC", "resourceURIKey"]
+- ["6Marvel15CharacterMapperC", "resultsKey"]
+- ["6Marvel15CharacterMapperC", "thumbnailKey"]
+- !private ["Sl", "hashValue"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "Character"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathExtension"]
+- !private ["s28CustomDebugStringConvertibleP", "comics"]
+- !private ["s28CustomDebugStringConvertibleP", "desc"]
+- !private ["s28CustomDebugStringConvertibleP", "hashPrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "modified"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "resourceURI"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "thumbnailURI"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Character"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "appendingPathExtension"]
+- !private ["s23CustomStringConvertibleP", "comics"]
+- !private ["s23CustomStringConvertibleP", "desc"]
+- !private ["s23CustomStringConvertibleP", "hashPrefix"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "modified"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "resourceURI"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "thumbnailURI"]
+- !private ["Se", "appendingPathExtension"]
+- !private ["Se", "hashValue"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SE", "appendingPathExtension"]
+- !private ["SE", "hashValue"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Character"]
+- ["SQ", ""]
+- !private ["SQ", "appendingPathExtension"]
+- !private ["SQ", "comics"]
+- !private ["SQ", "desc"]
+- !private ["SQ", "hashPrefix"]
+- !private ["SQ", "hashValue"]
+- !private ["SQ", "id"]
+- !private ["SQ", "init"]
+- !private ["SQ", "modified"]
+- !private ["SQ", "name"]
+- !private ["SQ", "resourceURI"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "thumbnailURI"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hashValue"]
+- !private ["s32ExpressibleByStringInterpolationP", "hashValue"]
+- !private ["s26ExpressibleByStringLiteralP", "hashValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hashValue"]
+- !private ["SH", "Character"]
+- ["SH", ""]
+- !private ["SH", "appendingPathExtension"]
+- !private ["SH", "comics"]
+- !private ["SH", "desc"]
+- !private ["SH", "hashPrefix"]
+- !private ["SH", "hashValue"]
+- !private ["SH", "id"]
+- !private ["SH", "init"]
+- !private ["SH", "modified"]
+- !private ["SH", "name"]
+- !private ["SH", "resourceURI"]
+- !private ["SH", "subscript"]
+- !private ["SH", "thumbnailURI"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["6Marvel12MVBaseMapperC", "Array"]
+- ["6Marvel12MVBaseMapperC", "Character"]
+- ["6Marvel12MVBaseMapperC", "Dictionary"]
+- !private ["6Marvel12MVBaseMapperC", "Int"]
+- !private ["6Marvel12MVBaseMapperC", "ResourceMapper"]
+- ["6Marvel12MVBaseMapperC", "String"]
+- !private ["6Marvel12MVBaseMapperC", "TypeConversionUtilities"]
+- !private ["6Marvel12MVBaseMapperC", "URL"]
+- !private ["6Marvel12MVBaseMapperC", "Utilities"]
+- ["6Marvel12MVBaseMapperC", ""]
+- ["6Marvel12MVBaseMapperC", "comicsKey"]
+- ["6Marvel12MVBaseMapperC", "createObjectFrom"]
+- ["6Marvel12MVBaseMapperC", "dataKey"]
+- !private ["6Marvel12MVBaseMapperC", "deinit"]
+- ["6Marvel12MVBaseMapperC", "descriptionKey"]
+- ["6Marvel12MVBaseMapperC", "extensionKey"]
+- ["6Marvel12MVBaseMapperC", "getRoot"]
+- ["6Marvel12MVBaseMapperC", "idKey"]
+- ["6Marvel12MVBaseMapperC", "init"]
+- ["6Marvel12MVBaseMapperC", "modifiedKey"]
+- ["6Marvel12MVBaseMapperC", "nameKey"]
+- ["6Marvel12MVBaseMapperC", "pathKey"]
+- ["6Marvel12MVBaseMapperC", "resourceURIKey"]
+- ["6Marvel12MVBaseMapperC", "resultsKey"]
+- ["6Marvel12MVBaseMapperC", "thumbnailKey"]
+- !private ["6Marvel6MapperP", "Character"]
+- !private ["6Marvel6MapperP", "ResourceMapper"]
+- !private ["6Marvel6MapperP", "TypeConversionUtilities"]
+- !private ["6Marvel6MapperP", "URL"]
+- !private ["6Marvel6MapperP", "Utilities"]
+- ["6Marvel6MapperP", ""]
+- !private ["6Marvel6MapperP", "comicsKey"]
+- !private ["6Marvel6MapperP", "createObjectFrom"]
+- !private ["6Marvel6MapperP", "dataKey"]
+- !private ["6Marvel6MapperP", "descriptionKey"]
+- !private ["6Marvel6MapperP", "extensionKey"]
+- !private ["6Marvel6MapperP", "getRoot"]
+- !private ["6Marvel6MapperP", "idKey"]
+- !private ["6Marvel6MapperP", "modifiedKey"]
+- !private ["6Marvel6MapperP", "nameKey"]
+- !private ["6Marvel6MapperP", "pathKey"]
+- !private ["6Marvel6MapperP", "resourceURIKey"]
+- !private ["6Marvel6MapperP", "resultsKey"]
+- !private ["6Marvel6MapperP", "thumbnailKey"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["So8NSCodingP", "hashValue"]
+- !private ["So9NSCopyingP", "hashValue"]
+- !private ["So21NSItemProviderReadingP", "hashValue"]
+- !private ["So21NSItemProviderWritingP", "hashValue"]
+- !private ["So16NSMutableCopyingP", "hashValue"]
+- !private ["So8NSObjectC", "Character"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Resource"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "comics"]
+- ["So8NSObjectC", "desc"]
+- ["So8NSObjectC", "description"]
+- ["So8NSObjectC", "hash"]
+- ["So8NSObjectC", "hashPrefix"]
+- !private ["So8NSObjectC", "hashValue"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "modified"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "resourceURI"]
+- ["So8NSObjectC", "thumbnailURI"]
+- !private ["So8NSObjectP", "Character"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "comics"]
+- !private ["So8NSObjectP", "desc"]
+- !private ["So8NSObjectP", "hashPrefix"]
+- !private ["So8NSObjectP", "hashValue"]
+- !private ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "modified"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "resourceURI"]
+- !private ["So8NSObjectP", "thumbnailURI"]
+- !private ["So14NSSecureCodingP", "hashValue"]
+- !private ["So8NSStringC", "hashValue"]
+- !private ["Sm", "hashValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathExtension"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["6Marvel14ResourceMapperC", "createObjectFrom"]
+- !private ["6Marvel14ResourceMapperC", "deinit"]
+- !private ["ST", "hashValue"]
+- !private ["ST", "subscript"]
+- !private ["SS", "hashValue"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "hashValue"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "hashValue"]
+- !private ["s20TextOutputStreamableP", "hashValue"]
+- !private ["6Marvel23TypeConversionUtilitiesV", "ISO8601"]
+- !private ["6Marvel23TypeConversionUtilitiesV", "getDateFormatter"]
+- !private ["6Marvel23TypeConversionUtilitiesV", "getDateFromString"]
+- !private ["10Foundation3URLV", "appendingPathExtension"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["6Marvel9UtilitiesV", "typeConversion"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathExtension"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hashValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hashValue"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hashValue"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathExtension"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "hashValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hashValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Character"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "comics"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "desc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashPrefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modified"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resourceURI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "thumbnailURI"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Character"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "comics"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "desc"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hashPrefix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hashValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "id"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "modified"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resourceURI"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "thumbnailURI"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathExtension"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- "6Marvel9CharacterC"
+- "6Marvel15CharacterMapperC"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "6Marvel12MVBaseMapperC"
+- "6Marvel6MapperP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "6Marvel14ResourceMapperC"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6Marvel23TypeConversionUtilitiesV"
+- !private "10Foundation3URLV"
+- !private "6Marvel9UtilitiesV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d9adb3eb10fb7916e4e0e902cc5fc515"

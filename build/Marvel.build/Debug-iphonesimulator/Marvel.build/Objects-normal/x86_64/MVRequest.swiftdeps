@@ -1,0 +1,486 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MVRequest"
+provides-nominal:
+- "6Marvel9MVRequestC"
+provides-member:
+- ["6Marvel9MVRequestC", ""]
+provides-dynamic-lookup:
+- "apiKey"
+- "baseUrl"
+- "downloadImage"
+- "getCharachterIndex"
+- "getCharachterSearch"
+- "getCharacterThumbnail"
+- "getComic"
+- "getDeafultParams"
+- "getMultipleObjects"
+- "hashKey"
+- "limitKey"
+- "nameStartsWithKey"
+- "offsetKey"
+- "privateKey"
+- "publicKey"
+- "timestampKey"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "=="
+- !private "API"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Character"
+- !private "CharacterMapper"
+- "Comic"
+- !private "ComicMapper"
+- !private "Config"
+- !private "Data"
+- !private "Date"
+- "Error"
+- !private "FloatLiteralType"
+- !private "ImageUtilities"
+- "Int"
+- !private "IntegerLiteralType"
+- "MVBaseMapper"
+- "MVRequest"
+- "String"
+- "StringLiteralType"
+- "UIImage"
+- "URL"
+- "URLRequest"
+- !private "URLResponse"
+- !private "URLSession"
+- !private "Utilities"
+- "Void"
+- !private "print"
+depends-member:
+- !private ["6Marvel3APIC", "downloadImage"]
+- !private ["6Marvel3APIC", "getMultipleObjects"]
+- !private ["6Marvel3APIC", "init"]
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["SK", "init"]
+- !private ["SK", "md5"]
+- !private ["SK", "toDictionary"]
+- !private ["SB", "description"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "downloadTask"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "md5"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "thumbnailURI"]
+- !private ["6Marvel9CharacterC", "deinit"]
+- !private ["6Marvel9CharacterC", "hashValue"]
+- !private ["6Marvel9CharacterC", "thumbnailURI"]
+- !private ["Sl", "init"]
+- !private ["Sl", "md5"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "toDictionary"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "md5"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["6Marvel6ConfigV", "StorageFilePaths"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "toDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "URLByAppendingQueryParams"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadTask"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "md5"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "thumbnailURI"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "toDictionary"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "md5"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "toDictionary"]
+- !private ["s23CustomStringConvertibleP", "URLByAppendingQueryParams"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "downloadTask"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "md5"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "thumbnailURI"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "toDictionary"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "toDictionary"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "toDictionary"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["Se", "URLByAppendingQueryParams"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "md5"]
+- !private ["Se", "subscript"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["Se", "toDictionary"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "description"]
+- !private ["SE", "URLByAppendingQueryParams"]
+- !private ["SE", "description"]
+- !private ["SE", "init"]
+- !private ["SE", "md5"]
+- !private ["SE", "subscript"]
+- !private ["SE", "timeIntervalSince1970"]
+- !private ["SE", "toDictionary"]
+- !private ["SQ", "URLByAppendingQueryParams"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "description"]
+- !private ["SQ", "downloadTask"]
+- !private ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "md5"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "thumbnailURI"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "toDictionary"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "md5"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "md5"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "md5"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "md5"]
+- !private ["6Marvel20FileStorageUtilitiesC", "saveFile"]
+- !private ["SF", "description"]
+- !private ["SH", "URLByAppendingQueryParams"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "description"]
+- !private ["SH", "downloadTask"]
+- !private ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "md5"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["SH", "subscript"]
+- !private ["SH", "thumbnailURI"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["SH", "toDictionary"]
+- !private ["6Marvel14ImageUtilitiesV", "getImage"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "md5"]
+- !private ["6Marvel12MVBaseMapperC", "createArrayFrom"]
+- !private ["6Marvel12MVBaseMapperC", "deinit"]
+- !private ["6Marvel12MVBaseMapperC", "getRoot"]
+- !private ["6Marvel9MVRequestC", "API"]
+- !private ["6Marvel9MVRequestC", "Array"]
+- ["6Marvel9MVRequestC", "Bool"]
+- ["6Marvel9MVRequestC", "Character"]
+- !private ["6Marvel9MVRequestC", "CharacterMapper"]
+- ["6Marvel9MVRequestC", "Comic"]
+- !private ["6Marvel9MVRequestC", "ComicMapper"]
+- ["6Marvel9MVRequestC", "CompletionHandlerCharacters"]
+- ["6Marvel9MVRequestC", "CompletionHandlerComics"]
+- !private ["6Marvel9MVRequestC", "Config"]
+- !private ["6Marvel9MVRequestC", "Data"]
+- !private ["6Marvel9MVRequestC", "Date"]
+- ["6Marvel9MVRequestC", "Error"]
+- !private ["6Marvel9MVRequestC", "ImageUtilities"]
+- ["6Marvel9MVRequestC", "Int"]
+- ["6Marvel9MVRequestC", "MVBaseMapper"]
+- !private ["6Marvel9MVRequestC", "MVRequest"]
+- ["6Marvel9MVRequestC", "String"]
+- ["6Marvel9MVRequestC", "UIImage"]
+- ["6Marvel9MVRequestC", "URL"]
+- ["6Marvel9MVRequestC", "URLRequest"]
+- !private ["6Marvel9MVRequestC", "URLResponse"]
+- !private ["6Marvel9MVRequestC", "URLSession"]
+- !private ["6Marvel9MVRequestC", "Utilities"]
+- ["6Marvel9MVRequestC", "Void"]
+- !private ["6Marvel9MVRequestC", "apiKey"]
+- !private ["6Marvel9MVRequestC", "baseUrl"]
+- ["6Marvel9MVRequestC", "deinit"]
+- !private ["6Marvel9MVRequestC", "downloadImage"]
+- ["6Marvel9MVRequestC", "getCharachterIndex"]
+- ["6Marvel9MVRequestC", "getCharachterSearch"]
+- ["6Marvel9MVRequestC", "getCharacterThumbnail"]
+- ["6Marvel9MVRequestC", "getComic"]
+- !private ["6Marvel9MVRequestC", "getDeafultParams"]
+- !private ["6Marvel9MVRequestC", "getMultipleObjects"]
+- !private ["6Marvel9MVRequestC", "hashKey"]
+- ["6Marvel9MVRequestC", "init"]
+- !private ["6Marvel9MVRequestC", "limitKey"]
+- !private ["6Marvel9MVRequestC", "nameStartsWithKey"]
+- !private ["6Marvel9MVRequestC", "offsetKey"]
+- !private ["6Marvel9MVRequestC", "print"]
+- !private ["6Marvel9MVRequestC", "privateKey"]
+- !private ["6Marvel9MVRequestC", "publicKey"]
+- !private ["6Marvel9MVRequestC", "timestampKey"]
+- !private ["6Marvel6MapperP", "createArrayFrom"]
+- !private ["6Marvel6MapperP", "getRoot"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "md5"]
+- !private ["SM", "init"]
+- !private ["SM", "toDictionary"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "toDictionary"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "md5"]
+- !private ["So9NSCopyingP", "md5"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "md5"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "md5"]
+- !private ["So16NSMutableCopyingP", "md5"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "downloadTask"]
+- !private ["So8NSObjectC", "hashValue"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "md5"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "thumbnailURI"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "downloadTask"]
+- !private ["So8NSObjectP", "hashValue"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "md5"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "thumbnailURI"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "md5"]
+- !private ["So8NSStringC", "md5"]
+- !private ["Sj", "description"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sk", "init"]
+- !private ["Sk", "toDictionary"]
+- !private ["Sm", "init"]
+- !private ["Sm", "md5"]
+- !private ["Sm", "toDictionary"]
+- !private ["10Foundation20ReferenceConvertibleP", "URLByAppendingQueryParams"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation20ReferenceConvertibleP", "toDictionary"]
+- !private ["s10SIMDScalarP", "description"]
+- !private ["ST", "init"]
+- !private ["ST", "md5"]
+- !private ["ST", "subscript"]
+- !private ["ST", "toDictionary"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["6Marvel6ConfigV16StorageFilePathsV", "characterThumbnailPath"]
+- !private ["Sx", "description"]
+- !private ["SS", "init"]
+- !private ["SS", "md5"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["Sy", "md5"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "md5"]
+- !private ["s20TextOutputStreamableP", "description"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "md5"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["10Foundation3URLV", "URLByAppendingQueryParams"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "downloadTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So24NSURLSessionDownloadTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["6Marvel9UtilitiesV", "fileStorage"]
+- !private ["s15_CVarArgAlignedP", "description"]
+- !private ["s22_CVarArgPassedAsDoubleP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "URLByAppendingQueryParams"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "md5"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "md5"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "md5"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "md5"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "URLByAppendingQueryParams"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "md5"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "md5"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "md5"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "thumbnailURI"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "downloadTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hashValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "md5"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "thumbnailURI"]
+- !private ["s21_ObjectiveCBridgeableP", "URLByAppendingQueryParams"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "md5"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- !private ["s21_ObjectiveCBridgeableP", "toDictionary"]
+depends-nominal:
+- !private "6Marvel3APIC"
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "SB"
+- !private "s7CVarArgP"
+- !private "6Marvel9CharacterC"
+- !private "Sl"
+- !private "SL"
+- !private "6Marvel6ConfigV"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6Marvel20FileStorageUtilitiesC"
+- !private "SF"
+- !private "SH"
+- !private "6Marvel14ImageUtilitiesV"
+- !private "s25LosslessStringConvertibleP"
+- !private "6Marvel12MVBaseMapperC"
+- "6Marvel9MVRequestC"
+- !private "6Marvel6MapperP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "So19NSProgressReportingP"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "6Marvel6ConfigV16StorageFilePathsV"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So24NSURLSessionDownloadTaskC"
+- !private "So16NSURLSessionTaskC"
+- !private "6Marvel9UtilitiesV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0349a271ea0692070c341038897b7018"

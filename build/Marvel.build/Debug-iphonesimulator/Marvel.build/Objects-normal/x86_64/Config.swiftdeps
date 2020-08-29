@@ -1,0 +1,140 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Config"
+provides-nominal:
+- "6Marvel6ConfigV"
+- "6Marvel6ConfigV4KeysV"
+- "6Marvel6ConfigV9TableViewV"
+- "6Marvel6ConfigV9TableViewV15CellIdentifiersV"
+- "6Marvel6ConfigV16StorageFilePathsV"
+provides-member:
+- ["6Marvel6ConfigV", ""]
+- ["6Marvel6ConfigV4KeysV", ""]
+- ["6Marvel6ConfigV9TableViewV", ""]
+- ["6Marvel6ConfigV9TableViewV15CellIdentifiersV", ""]
+- ["6Marvel6ConfigV16StorageFilePathsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CommonUtilities"
+- "Config"
+- !private "FileStorageUtilities"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Sa", "joined"]
+- !private ["SK", "joined"]
+- !private ["s7CVarArgP", "joined"]
+- ["6Marvel6ConfigV9TableViewV15CellIdentifiersV", "CharacterCell"]
+- ["6Marvel6ConfigV9TableViewV15CellIdentifiersV", "ItemCell"]
+- ["6Marvel6ConfigV9TableViewV15CellIdentifiersV", "init"]
+- !private ["Sl", "joined"]
+- ["6Marvel15CommonUtilitiesC", "getStringFromMainBundle"]
+- ["6Marvel6ConfigV", "CommonUtilities"]
+- !private ["6Marvel6ConfigV", "FileStorageUtilities"]
+- ["6Marvel6ConfigV", "Keys"]
+- ["6Marvel6ConfigV", "StorageFilePaths"]
+- ["6Marvel6ConfigV", "String"]
+- ["6Marvel6ConfigV", "TableView"]
+- ["6Marvel6ConfigV", "baseUrl"]
+- ["6Marvel6ConfigV", "init"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["Se", "joined"]
+- !private ["SE", "joined"]
+- !private ["SQ", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["6Marvel20FileStorageUtilitiesC", "storageBasePath"]
+- !private ["SH", "joined"]
+- ["6Marvel6ConfigV4KeysV", "CommonUtilities"]
+- ["6Marvel6ConfigV4KeysV", "init"]
+- ["6Marvel6ConfigV4KeysV", "marvelPrivate"]
+- ["6Marvel6ConfigV4KeysV", "marvelPublic"]
+- !private ["SM", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["Sk", "joined"]
+- !private ["Sm", "joined"]
+- !private ["ST", "joined"]
+- !private ["6Marvel6ConfigV16StorageFilePathsV", "FileStorageUtilities"]
+- ["6Marvel6ConfigV16StorageFilePathsV", "StorageFilePaths"]
+- ["6Marvel6ConfigV16StorageFilePathsV", "String"]
+- !private ["6Marvel6ConfigV16StorageFilePathsV", "characterThumbnailBasePath"]
+- ["6Marvel6ConfigV16StorageFilePathsV", "characterThumbnailPath"]
+- ["6Marvel6ConfigV16StorageFilePathsV", "fileWithBasePath"]
+- ["6Marvel6ConfigV16StorageFilePathsV", "init"]
+- !private ["6Marvel6ConfigV16StorageFilePathsV", "resourceComicsBasePath"]
+- ["6Marvel6ConfigV16StorageFilePathsV", "resourceComicsPath"]
+- ["6Marvel6ConfigV9TableViewV", "CellIdentifiers"]
+- ["6Marvel6ConfigV9TableViewV", "init"]
+- ["6Marvel6ConfigV9TableViewV", "listLoadLimit"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "6Marvel6ConfigV9TableViewV15CellIdentifiersV"
+- !private "Sl"
+- "6Marvel15CommonUtilitiesC"
+- "6Marvel6ConfigV"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "6Marvel20FileStorageUtilitiesC"
+- !private "SH"
+- "6Marvel6ConfigV4KeysV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- "6Marvel6ConfigV16StorageFilePathsV"
+- "6Marvel6ConfigV9TableViewV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "40d04c571a2a2a786fc18c88cbf8f528"

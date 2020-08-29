@@ -1,0 +1,244 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BatchedCollectionIndex"
+- "BatchedCollectionType"
+- "BatchedCollection"
+- "=="
+- "<"
+provides-nominal:
+- "11CryptoSwift22BatchedCollectionIndexV"
+- "11CryptoSwift21BatchedCollectionTypeP"
+- "11CryptoSwift17BatchedCollectionV"
+provides-member:
+- ["11CryptoSwift22BatchedCollectionIndexV", ""]
+- ["11CryptoSwift21BatchedCollectionTypeP", ""]
+- ["11CryptoSwift17BatchedCollectionV", ""]
+- ["Sl", ""]
+- ["Sl", "batched"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- !private "??"
+- "BatchedCollection"
+- "BatchedCollectionIndex"
+- "BatchedCollectionType"
+- "Bool"
+- "Collection"
+- "Comparable"
+- "Int"
+- "Range"
+depends-member:
+- ["11CryptoSwift17BatchedCollectionV", "BatchedCollectionIndex"]
+- ["11CryptoSwift17BatchedCollectionV", "Element"]
+- ["11CryptoSwift17BatchedCollectionV", "Index"]
+- ["11CryptoSwift17BatchedCollectionV", "Indices"]
+- ["11CryptoSwift17BatchedCollectionV", "Int"]
+- ["11CryptoSwift17BatchedCollectionV", "Iterator"]
+- ["11CryptoSwift17BatchedCollectionV", "SubSequence"]
+- ["11CryptoSwift17BatchedCollectionV", "_Default_Element"]
+- ["11CryptoSwift17BatchedCollectionV", "_Default_Indices"]
+- ["11CryptoSwift17BatchedCollectionV", "_Default_Iterator"]
+- ["11CryptoSwift17BatchedCollectionV", "_Default_SubSequence"]
+- ["11CryptoSwift17BatchedCollectionV", "_copyContents"]
+- ["11CryptoSwift17BatchedCollectionV", "_copyToContiguousArray"]
+- ["11CryptoSwift17BatchedCollectionV", "_customContainsEquatableElement"]
+- ["11CryptoSwift17BatchedCollectionV", "_customIndexOfEquatableElement"]
+- ["11CryptoSwift17BatchedCollectionV", "_customLastIndexOfEquatableElement"]
+- ["11CryptoSwift17BatchedCollectionV", "_failEarlyRangeCheck"]
+- ["11CryptoSwift17BatchedCollectionV", "base"]
+- ["11CryptoSwift17BatchedCollectionV", "count"]
+- ["11CryptoSwift17BatchedCollectionV", "deinit"]
+- ["11CryptoSwift17BatchedCollectionV", "distance"]
+- ["11CryptoSwift17BatchedCollectionV", "endIndex"]
+- ["11CryptoSwift17BatchedCollectionV", "formIndex"]
+- ["11CryptoSwift17BatchedCollectionV", "index"]
+- ["11CryptoSwift17BatchedCollectionV", "indices"]
+- ["11CryptoSwift17BatchedCollectionV", "init"]
+- ["11CryptoSwift17BatchedCollectionV", "isEmpty"]
+- ["11CryptoSwift17BatchedCollectionV", "makeIterator"]
+- !private ["11CryptoSwift17BatchedCollectionV", "nextBreak"]
+- ["11CryptoSwift17BatchedCollectionV", "size"]
+- ["11CryptoSwift17BatchedCollectionV", "startIndex"]
+- ["11CryptoSwift17BatchedCollectionV", "subscript"]
+- ["11CryptoSwift17BatchedCollectionV", "underestimatedCount"]
+- ["11CryptoSwift17BatchedCollectionV", "withContiguousStorageIfAvailable"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "<"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "<="]
+- ["11CryptoSwift22BatchedCollectionIndexV", "=="]
+- ["11CryptoSwift22BatchedCollectionIndexV", ">"]
+- ["11CryptoSwift22BatchedCollectionIndexV", ">="]
+- ["11CryptoSwift22BatchedCollectionIndexV", "BatchedCollectionIndex"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "Bool"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "Range"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "deinit"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "init"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "range"]
+- ["11CryptoSwift21BatchedCollectionTypeP", "Base"]
+- ["11CryptoSwift21BatchedCollectionTypeP", "Collection"]
+- !private ["SK", "lowerBound"]
+- !private ["SK", "upperBound"]
+- ["Sl", "BatchedCollection"]
+- ["Sl", "Collection"]
+- ["Sl", "Element"]
+- ["Sl", "Index"]
+- ["Sl", "Indices"]
+- ["Sl", "Int"]
+- ["Sl", "Iterator"]
+- ["Sl", "SubSequence"]
+- ["Sl", ""]
+- ["Sl", "_Default_Element"]
+- ["Sl", "_Default_Indices"]
+- ["Sl", "_Default_Iterator"]
+- ["Sl", "_Default_SubSequence"]
+- ["Sl", "_copyContents"]
+- ["Sl", "_copyToContiguousArray"]
+- ["Sl", "_customContainsEquatableElement"]
+- ["Sl", "_customIndexOfEquatableElement"]
+- ["Sl", "_customLastIndexOfEquatableElement"]
+- ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "base"]
+- ["Sl", "batched"]
+- ["Sl", "count"]
+- ["Sl", "distance"]
+- ["Sl", "endIndex"]
+- ["Sl", "formIndex"]
+- ["Sl", "index"]
+- ["Sl", "indices"]
+- !private ["Sl", "init"]
+- ["Sl", "isEmpty"]
+- !private ["Sl", "lowerBound"]
+- ["Sl", "makeIterator"]
+- !private ["Sl", "nextBreak"]
+- !private ["Sl", "size"]
+- ["Sl", "startIndex"]
+- ["Sl", "subscript"]
+- ["Sl", "underestimatedCount"]
+- !private ["Sl", "upperBound"]
+- ["Sl", "withContiguousStorageIfAvailable"]
+- ["SL", "<"]
+- ["SL", "<="]
+- ["SL", "=="]
+- ["SL", ">"]
+- ["SL", ">="]
+- ["SL", ""]
+- !private ["SL", "init"]
+- !private ["SL", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "upperBound"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "upperBound"]
+- !private ["Se", "lowerBound"]
+- !private ["Se", "upperBound"]
+- !private ["SE", "lowerBound"]
+- !private ["SE", "upperBound"]
+- ["SQ", "<"]
+- ["SQ", "<="]
+- ["SQ", "=="]
+- ["SQ", ">"]
+- ["SQ", ">="]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "lowerBound"]
+- !private ["SQ", "range"]
+- !private ["SQ", "upperBound"]
+- !private ["SH", "lowerBound"]
+- !private ["SH", "upperBound"]
+- !private ["Sk", "lowerBound"]
+- !private ["Sk", "upperBound"]
+- !private ["Sn", "lowerBound"]
+- !private ["Sn", "upperBound"]
+- !private ["SX", "lowerBound"]
+- !private ["SX", "upperBound"]
+- ["ST", "BatchedCollection"]
+- ["ST", "Collection"]
+- ["ST", "Element"]
+- ["ST", "Index"]
+- ["ST", "Indices"]
+- ["ST", "Int"]
+- ["ST", "Iterator"]
+- ["ST", "SubSequence"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_Default_Indices"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_Default_SubSequence"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- ["ST", "_customIndexOfEquatableElement"]
+- ["ST", "_customLastIndexOfEquatableElement"]
+- ["ST", "_failEarlyRangeCheck"]
+- !private ["ST", "base"]
+- ["ST", "count"]
+- ["ST", "distance"]
+- ["ST", "endIndex"]
+- ["ST", "formIndex"]
+- ["ST", "index"]
+- ["ST", "indices"]
+- !private ["ST", "init"]
+- ["ST", "isEmpty"]
+- !private ["ST", "lowerBound"]
+- ["ST", "makeIterator"]
+- !private ["ST", "nextBreak"]
+- !private ["ST", "size"]
+- ["ST", "startIndex"]
+- ["ST", "subscript"]
+- ["ST", "underestimatedCount"]
+- !private ["ST", "upperBound"]
+- ["ST", "withContiguousStorageIfAvailable"]
+depends-nominal:
+- "11CryptoSwift17BatchedCollectionV"
+- "11CryptoSwift22BatchedCollectionIndexV"
+- "11CryptoSwift21BatchedCollectionTypeP"
+- !private "SK"
+- "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "SH"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- "ST"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/Task/Pods/Target Support Files/CryptoSwift/CryptoSwift-umbrella.h"
+- "/Users/MohamedNawar/Desktop/Task/build/Pods.build/Debug-iphonesimulator/CryptoSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1098262c65f1cf14c4584b6696a19861"

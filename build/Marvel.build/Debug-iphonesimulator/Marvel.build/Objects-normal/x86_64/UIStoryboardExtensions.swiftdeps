@@ -1,0 +1,381 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So12UIStoryboardC", ""]
+- ["So12UIStoryboardC", "mainStoryboard"]
+- ["So12UIStoryboardC", "charactersTableViewController"]
+- ["So12UIStoryboardC", "searchCharactersViewController"]
+- ["So12UIStoryboardC", "charactersSearchResultsController"]
+- ["So12UIStoryboardC", "charactersIndexViewController"]
+- ["So12UIStoryboardC", "pictureCollectionViewController"]
+- ["So12UIStoryboardC", "collectionContainer"]
+- ["So12UIStoryboardC", "detailsTableViewController"]
+provides-dynamic-lookup:
+- "charactersIndexViewController"
+- "charactersSearchResultsController"
+- "charactersTableViewController"
+- "collectionContainer"
+- "detailsTableViewController"
+- "mainStoryboard"
+- "pictureCollectionViewController"
+- "searchCharactersViewController"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- "Character"
+- "CharactersIndexViewController"
+- "CharactersSearchResultsController"
+- "CharactersTableViewController"
+- "CollectionContainer"
+- "DetailsTableViewController"
+- "PictureCollectionViewController"
+- !private "StringLiteralType"
+- "UIStoryboard"
+depends-member:
+- !private ["6Marvel27BaseContainerViewControllerC", "contentViewController"]
+- !private ["6Marvel27BaseContainerViewControllerC", "init"]
+- !private ["So8NSBundleC", "main"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "CharactersIndexViewController"]
+- !private ["s7CVarArgP", "CharactersSearchResultsController"]
+- !private ["s7CVarArgP", "CharactersTableViewController"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- !private ["s7CVarArgP", "character"]
+- !private ["s7CVarArgP", "charactersTableViewController"]
+- !private ["s7CVarArgP", "contentViewController"]
+- !private ["s7CVarArgP", "enableCloseButton"]
+- !private ["s7CVarArgP", "hash"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "mainStoryboard"]
+- !private ["s7CVarArgP", "pictureCollectionViewController"]
+- !private ["s7CVarArgP", "searchCharactersViewController"]
+- !private ["6Marvel29CharactersIndexViewControllerC", "deinit"]
+- !private ["6Marvel29CharactersIndexViewControllerC", "init"]
+- !private ["6Marvel33CharactersSearchResultsControllerC", "deinit"]
+- !private ["6Marvel33CharactersSearchResultsControllerC", "init"]
+- !private ["6Marvel41CharactersSearchResultsControllerDelegateP", "init"]
+- !private ["6Marvel29CharactersTableViewControllerC", "deinit"]
+- !private ["6Marvel29CharactersTableViewControllerC", "hash"]
+- !private ["6Marvel19CollectionContainerC", "contentViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "CharactersIndexViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "CharactersSearchResultsController"]
+- !private ["s28CustomDebugStringConvertibleP", "CharactersTableViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "character"]
+- !private ["s28CustomDebugStringConvertibleP", "charactersTableViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "contentViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "enableCloseButton"]
+- !private ["s28CustomDebugStringConvertibleP", "hash"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "mainStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "pictureCollectionViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "searchCharactersViewController"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "CharactersIndexViewController"]
+- !private ["s23CustomStringConvertibleP", "CharactersSearchResultsController"]
+- !private ["s23CustomStringConvertibleP", "CharactersTableViewController"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- !private ["s23CustomStringConvertibleP", "character"]
+- !private ["s23CustomStringConvertibleP", "charactersTableViewController"]
+- !private ["s23CustomStringConvertibleP", "contentViewController"]
+- !private ["s23CustomStringConvertibleP", "enableCloseButton"]
+- !private ["s23CustomStringConvertibleP", "hash"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "mainStoryboard"]
+- !private ["s23CustomStringConvertibleP", "pictureCollectionViewController"]
+- !private ["s23CustomStringConvertibleP", "searchCharactersViewController"]
+- !private ["6Marvel26DetailsTableViewControllerC", "character"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "CharactersIndexViewController"]
+- !private ["SQ", "CharactersSearchResultsController"]
+- !private ["SQ", "CharactersTableViewController"]
+- !private ["SQ", "UIStoryboard"]
+- !private ["SQ", "character"]
+- !private ["SQ", "charactersTableViewController"]
+- !private ["SQ", "contentViewController"]
+- !private ["SQ", "enableCloseButton"]
+- !private ["SQ", "hash"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "main"]
+- !private ["SQ", "mainStoryboard"]
+- !private ["SQ", "pictureCollectionViewController"]
+- !private ["SQ", "searchCharactersViewController"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "CharactersIndexViewController"]
+- !private ["SH", "CharactersSearchResultsController"]
+- !private ["SH", "CharactersTableViewController"]
+- !private ["SH", "UIStoryboard"]
+- !private ["SH", "character"]
+- !private ["SH", "charactersTableViewController"]
+- !private ["SH", "contentViewController"]
+- !private ["SH", "enableCloseButton"]
+- !private ["SH", "hash"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "main"]
+- !private ["SH", "mainStoryboard"]
+- !private ["SH", "pictureCollectionViewController"]
+- !private ["SH", "searchCharactersViewController"]
+- !private ["6Marvel32ImageReusableTableViewControllerC", "hash"]
+- !private ["So8NSCodingP", "character"]
+- !private ["So8NSCodingP", "contentViewController"]
+- !private ["So8NSCodingP", "enableCloseButton"]
+- !private ["So8NSCodingP", "hash"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "character"]
+- !private ["So26NSExtensionRequestHandlingP", "contentViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "enableCloseButton"]
+- !private ["So26NSExtensionRequestHandlingP", "hash"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "Character"]
+- ["So8NSObjectC", "CharactersIndexViewController"]
+- ["So8NSObjectC", "CharactersSearchResultsController"]
+- ["So8NSObjectC", "CharactersTableViewController"]
+- ["So8NSObjectC", "CollectionContainer"]
+- ["So8NSObjectC", "DetailsTableViewController"]
+- ["So8NSObjectC", "PictureCollectionViewController"]
+- ["So8NSObjectC", "UIStoryboard"]
+- !private ["So8NSObjectC", "character"]
+- ["So8NSObjectC", "charactersIndexViewController"]
+- ["So8NSObjectC", "charactersSearchResultsController"]
+- ["So8NSObjectC", "charactersTableViewController"]
+- ["So8NSObjectC", "collectionContainer"]
+- !private ["So8NSObjectC", "contentViewController"]
+- ["So8NSObjectC", "detailsTableViewController"]
+- !private ["So8NSObjectC", "enableCloseButton"]
+- !private ["So8NSObjectC", "hash"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "mainStoryboard"]
+- ["So8NSObjectC", "pictureCollectionViewController"]
+- ["So8NSObjectC", "searchCharactersViewController"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "CharactersIndexViewController"]
+- !private ["So8NSObjectP", "CharactersSearchResultsController"]
+- !private ["So8NSObjectP", "CharactersTableViewController"]
+- !private ["So8NSObjectP", "UIStoryboard"]
+- !private ["So8NSObjectP", "character"]
+- !private ["So8NSObjectP", "charactersTableViewController"]
+- !private ["So8NSObjectP", "contentViewController"]
+- !private ["So8NSObjectP", "enableCloseButton"]
+- !private ["So8NSObjectP", "hash"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "mainStoryboard"]
+- !private ["So8NSObjectP", "pictureCollectionViewController"]
+- !private ["So8NSObjectP", "searchCharactersViewController"]
+- !private ["6Marvel31PictureCollectionViewControllerC", "character"]
+- !private ["6Marvel31PictureCollectionViewControllerC", "enableCloseButton"]
+- !private ["6Marvel39PictureCollectionViewControllerDelegateP", "contentViewController"]
+- !private ["6Marvel27ReusableTableViewControllerC", "hash"]
+- !private ["6Marvel45ReusableTableViewControllerDataSourceDelegateP", "init"]
+- !private ["6Marvel35ReusableTableViewControllerDelegateP", "init"]
+- !private ["So21UIAppearanceContainerP", "character"]
+- !private ["So21UIAppearanceContainerP", "contentViewController"]
+- !private ["So21UIAppearanceContainerP", "enableCloseButton"]
+- !private ["So21UIAppearanceContainerP", "hash"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So24UIBarPositioningDelegateP", "init"]
+- !private ["So26UICollectionViewControllerC", "character"]
+- !private ["So26UICollectionViewControllerC", "enableCloseButton"]
+- !private ["So26UICollectionViewDataSourceP", "character"]
+- !private ["So26UICollectionViewDataSourceP", "enableCloseButton"]
+- !private ["So24UICollectionViewDelegateP", "character"]
+- !private ["So24UICollectionViewDelegateP", "enableCloseButton"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "character"]
+- !private ["So18UIContentContainerP", "character"]
+- !private ["So18UIContentContainerP", "contentViewController"]
+- !private ["So18UIContentContainerP", "enableCloseButton"]
+- !private ["So18UIContentContainerP", "hash"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIFocusEnvironmentP", "character"]
+- !private ["So18UIFocusEnvironmentP", "contentViewController"]
+- !private ["So18UIFocusEnvironmentP", "enableCloseButton"]
+- !private ["So18UIFocusEnvironmentP", "hash"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "character"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "enableCloseButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "hash"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So11UIResponderC", "character"]
+- !private ["So11UIResponderC", "contentViewController"]
+- !private ["So11UIResponderC", "enableCloseButton"]
+- !private ["So11UIResponderC", "hash"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "character"]
+- !private ["So30UIResponderStandardEditActionsP", "contentViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "enableCloseButton"]
+- !private ["So30UIResponderStandardEditActionsP", "hash"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So20UIScrollViewDelegateP", "character"]
+- !private ["So20UIScrollViewDelegateP", "enableCloseButton"]
+- !private ["So20UIScrollViewDelegateP", "hash"]
+- !private ["So19UISearchBarDelegateP", "init"]
+- !private ["So16UIStateRestoringP", "character"]
+- !private ["So16UIStateRestoringP", "contentViewController"]
+- !private ["So16UIStateRestoringP", "enableCloseButton"]
+- !private ["So16UIStateRestoringP", "hash"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So12UIStoryboardC", "Bundle"]
+- ["So12UIStoryboardC", "Character"]
+- ["So12UIStoryboardC", "CharactersIndexViewController"]
+- ["So12UIStoryboardC", "CharactersSearchResultsController"]
+- ["So12UIStoryboardC", "CharactersTableViewController"]
+- ["So12UIStoryboardC", "CollectionContainer"]
+- ["So12UIStoryboardC", "DetailsTableViewController"]
+- ["So12UIStoryboardC", "PictureCollectionViewController"]
+- ["So12UIStoryboardC", "UIStoryboard"]
+- ["So12UIStoryboardC", "charactersIndexViewController"]
+- ["So12UIStoryboardC", "charactersSearchResultsController"]
+- ["So12UIStoryboardC", "charactersTableViewController"]
+- ["So12UIStoryboardC", "collectionContainer"]
+- ["So12UIStoryboardC", "detailsTableViewController"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- ["So12UIStoryboardC", "mainStoryboard"]
+- ["So12UIStoryboardC", "pictureCollectionViewController"]
+- ["So12UIStoryboardC", "searchCharactersViewController"]
+- !private ["So21UITableViewControllerC", "character"]
+- !private ["So21UITableViewControllerC", "hash"]
+- !private ["So21UITableViewDataSourceP", "character"]
+- !private ["So21UITableViewDataSourceP", "hash"]
+- !private ["So19UITableViewDelegateP", "character"]
+- !private ["So19UITableViewDelegateP", "hash"]
+- !private ["So18UITraitEnvironmentP", "character"]
+- !private ["So18UITraitEnvironmentP", "contentViewController"]
+- !private ["So18UITraitEnvironmentP", "enableCloseButton"]
+- !private ["So18UITraitEnvironmentP", "hash"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So23UIUserActivityRestoringP", "character"]
+- !private ["So23UIUserActivityRestoringP", "contentViewController"]
+- !private ["So23UIUserActivityRestoringP", "enableCloseButton"]
+- !private ["So23UIUserActivityRestoringP", "hash"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So16UIViewControllerC", "character"]
+- !private ["So16UIViewControllerC", "contentViewController"]
+- !private ["So16UIViewControllerC", "enableCloseButton"]
+- !private ["So16UIViewControllerC", "hash"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CharactersIndexViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CharactersSearchResultsController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CharactersTableViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "character"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "charactersTableViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enableCloseButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hash"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pictureCollectionViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "searchCharactersViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CharactersIndexViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CharactersSearchResultsController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CharactersTableViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIStoryboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "character"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "charactersTableViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "enableCloseButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hash"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mainStoryboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pictureCollectionViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchCharactersViewController"]
+depends-nominal:
+- !private "6Marvel27BaseContainerViewControllerC"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "6Marvel29CharactersIndexViewControllerC"
+- !private "6Marvel33CharactersSearchResultsControllerC"
+- !private "6Marvel41CharactersSearchResultsControllerDelegateP"
+- !private "6Marvel29CharactersTableViewControllerC"
+- !private "6Marvel19CollectionContainerC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "6Marvel26DetailsTableViewControllerC"
+- !private "SQ"
+- !private "SH"
+- !private "6Marvel32ImageReusableTableViewControllerC"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "6Marvel31PictureCollectionViewControllerC"
+- !private "6Marvel39PictureCollectionViewControllerDelegateP"
+- !private "6Marvel27ReusableTableViewControllerC"
+- !private "6Marvel45ReusableTableViewControllerDataSourceDelegateP"
+- !private "6Marvel35ReusableTableViewControllerDelegateP"
+- !private "So21UIAppearanceContainerP"
+- !private "So24UIBarPositioningDelegateP"
+- !private "So26UICollectionViewControllerC"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So34UICollectionViewDelegateFlowLayoutP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So19UISearchBarDelegateP"
+- !private "So16UIStateRestoringP"
+- "So12UIStoryboardC"
+- !private "So21UITableViewControllerC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So16UIViewControllerC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c869705711565a8472d4133926dfd44b"
