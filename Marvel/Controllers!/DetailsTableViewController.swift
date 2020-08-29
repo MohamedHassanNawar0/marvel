@@ -34,8 +34,7 @@ class DetailsTableViewController: UITableViewController {
                                                              y:20,
                                                              width:30,
                                                              height:30))
-                backButton.setBackgroundImage(UIImage(named: "icn-cell-disclosure"), for: UIControl.State.normal)
-                backButton.transform = CGAffineTransform(scaleX: -1, y: -1)
+                backButton.setBackgroundImage(UIImage(named: "icn-nav-back-white"), for: UIControl.State.normal)
                 backButton.addTarget(self, action: #selector(handleBackButton(recognizer:)), for: .touchUpInside)
     
                 self.headerImageView.addSubview(backButton)
